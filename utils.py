@@ -20,13 +20,9 @@ def make_cv_splits(data_cv,label_cv,n_cv_splits,cv_seed):
         splits_cv.append([tridx_cv,tsidx_cv])
     return splits_cv
 
-def make_train_val_split(data_train_val,label_train_val,
-# split_seed=0
-):
+def make_train_val_split(data_train_val,label_train_val):
     splits_train_val = []
-    sss_train_val = StratifiedShuffleSplit(n_splits=5,test_size=0.2,
-    # random_state=split_seed
-    )
+    sss_train_val = StratifiedShuffleSplit(n_splits=5,test_size=0.2)
     for tridx_train_val, vaidx_train_val in sss_train_val.split(data_train_val,label_train_val):
         splits_train_val.append([tridx_train_val,vaidx_train_val])
     return splits_train_val
