@@ -43,5 +43,5 @@ There are some adjustable (hyper)parameters that you can modify in the GECNVNet 
 ### For customized loss function:
 --gamma: float. It decides the $\gamma$ used in the customized loss.
 
---epsilon: float. It decides the $\epsilon$ usde in the customized loss.
+--epsilon: float. It decides the $\epsilon$ used in the customized loss.
 
