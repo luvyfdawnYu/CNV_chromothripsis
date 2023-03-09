@@ -1,5 +1,5 @@
 # CNV chromothripsis
-This is the source code to replicate GECNVNet proposed in the paper: Deep Graph Learning-based Chromothripsis Detection and Multiple Myeloma Outcome Prediction Using Copy Number Variation.
+This is the source code to replicate GECNVNet proposed in the paper: Chromothripsis Detection and Multiple Myeloma Prognosis Inference Based on Deep Graph Learning.
 
 The dataset used in the paper is also accompanied.
 
